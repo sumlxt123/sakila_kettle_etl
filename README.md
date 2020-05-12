@@ -35,34 +35,34 @@ GRANT ALL PRIVILEGES ON sakila_dwh.* TO sakila_dwh;
 # load_rentals.kjb 设计
 >在配置邮件时如使用163邮箱时，密码需要使用授权密码   SMTP服务器：smtp.163.com  port:25
 
-![load_rentals.kjb](./images/load_rentals.kjb.png)
+![load_rentals.kjb](https://github.com/sumlxt123/sakila_kettle_etl/tree/master/images/load_rentals.kjb.png)
 
 
 # load_dim_staff.ktr
 >实现增量更新
-![load_dim_staff.ktr](./images/load_dim_staff.ktr.png)
+![load_dim_staff.ktr](https://github.com/sumlxt123/sakila_kettle_etl/tree/master/images/load_dim_staff.ktr.png)
 
 
 # load_dim_customer.ktr
 >在转换中调用子转换
-![load_dim_customer.ktr](./images/load_dim_customer.ktr.png)
+![load_dim_customer.ktr](https://github.com/sumlxt123/sakila_kettle_etl/tree/master/images/load_dim_customer.ktr.png)
 
 
 # load_dim_store.ktr
 >在转换中调用子转换
-![load_dim_store.ktr](./images/load_dim_store.ktr.png)
+![load_dim_store.ktr](https://github.com/sumlxt123/sakila_kettle_etl/tree/master/images/load_dim_store.ktr.png)
 
 
 # load_dim_actor.ktr
 >插入/更新功能使用
-![load_dim_actor.ktr](./images/load_dim_actor.ktr.png)
+![load_dim_actor.ktr](https://github.com/sumlxt123/sakila_kettle_etl/tree/master/images/load_dim_actor.ktr.png)
 
 
 # load_dim_film.ktr
 >实现行列转换
-![load_dim_film.ktr](./images/load_dim_film.ktr.png)
-![load_dim_film.ktr1](./images/load_dim_film.ktr1.png)
+![load_dim_film.ktr](https://github.com/sumlxt123/sakila_kettle_etl/tree/master/images/load_dim_film.ktr.png)
+![load_dim_film.ktr1](https://github.com/sumlxt123/sakila_kettle_etl/tree/master/images/load_dim_film.ktr1.png)
 
 # load_fact_rental.ktr
 >处理空值数据
-![load_fact_rental.ktr](./images/load_fact_rental.ktr.png)
+![load_fact_rental.ktr](https://github.com/sumlxt123/sakila_kettle_etl/tree/master/images/load_fact_rental.ktr.png)
